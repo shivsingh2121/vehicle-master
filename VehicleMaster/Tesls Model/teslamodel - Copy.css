@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Car Details Section */
+  .car-details {
+    text-align: center;
+  }
+  
+  .car-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px auto;
+    max-width: 400px;
+  }
+  
+  .features li {
+    margin: 5px 0;
+  }
+  
+  /* Booking Form Section */
+  .booking-form {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Payment Section */
+  .payment-section {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .payment-section button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .payment-section button:hover {
+    background-color: #218838;
+  }
+  footer.shiv {
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(189, 200, 206);
+}
+
+.shiv .icons {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 5px;
+}
+
+.shiv .icons a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer; 
+}
+
+.shiv .icons a:hover {
+    transform: translateY(-10px); 
+}
+  

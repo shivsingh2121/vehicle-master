@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Model Booking</title>
+  <link rel="stylesheet" href="teslamodel.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Car Details Section -->
+    <section class="car-details">
+      <h1>Tesla Model S</h1>
+      <img src="teslamo" alt="Tesla Model S" class="car-image">
+      <p class="description">
+        The Tesla Model S is an all-electric car with an impressive range of 396 miles and a top speed of 200 mph. Experience luxury and performance in one vehicle.
+      </p>
+      <ul class="features">
+        <li><strong>Range:</strong> 396 miles</li>
+        <li><strong>Top Speed:</strong> 200 mph</li>
+        <li><strong>Seats:</strong> 5</li>
+        <h1>Price:Rs.15/km</h1>
+        <li><strong>Price:</strong>80,000</li>
+      </ul>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-form">
+      <h2>Book Your Tesla Model S</h2>
+      <form id="bookingForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="Enter your phone number" name="phone" required>
+
+            
+            <label for="car">Select Car</label>
+            <select id="car" name="choice" required>
+                <option name="choice" value="" disabled selected>Select a car</option>
+                <option  name="choice" value="Renault tribre">Renault tribre</option>
+                <option name="choice" value="Bolero">Bolero</option>
+                <option name="choice" value="Ford Mustang">Ford Mustang</option>
+                <option name="choice" value="Tesla Model S">Tesla Model S</option>
+            </select>
+            <label for="bookingDate">Booking Date</label>
+            <input type="date" id="bookingDate" name="date" required>
+
+            <label for="current">Starting Place</label>
+            <input type="text" id="current" name="slocation" required>
+
+            <label for="ending">Ending Place</label>
+            <input type="text" id="ending" name="Elocation" required>
+            
+            <!-- Payment Section -->
+    <section class="payment-section" id="paymentSection">
+      <h2>Payment Details</h2>
+      <p>Total Amount: <strong>$80,000</strong></p>
+      <button id="payButton">Pay Now</button>
+    </section>
+            <button type="submit" name="book"> Book Now</button>>
+
+        <button type="submit">Proceed to Payment</button>
+      </form>
+    </section>
+
+    
+  </div>
+  <footer class="shiv">
+    <div class="icons">
+        <a href="https://www.facebook.com" target="_blank">
+
+            <ion-icon name="logo-facebook" style="font-size: 30px; color: #2961da;"></ion-icon>
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <ion-icon name="logo-twitter" style="font-size: 30px; color: #1DA1F2;">
+
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <ion-icon name="logo-instagram" style="font-size: 30px; color: #E4405F;"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <ion-icon name="logo-linkedin" style="font-size: 30px; color: #2c93e8;"></ion-icon>
+        </a>
+        
+        <a href="https://github.com" target="_blank">
+             <ion-icon name="logo-github" style="font-size: 30px; color: #1d1d1d;"></ion-icon>
+        </a>
+    </div>
+</footer>
+
+  <script src="teslamodel.js"></script>
+</body>
+</html>
